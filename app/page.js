@@ -27,7 +27,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="w-full p-4 bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 flex justify-between items-center fixed top-0">
         <div className="text-xl font-semibold hover:text-teal-400 hover:cursor-pointer transition duration-200">
-          I'm Bhaumik
+          Portfolio
         </div>
         <div className="flex space-x-6">
           <Link
