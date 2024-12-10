@@ -44,7 +44,7 @@ export default function Home() {
         </div>
         <div className="text-lg max-w-xl text-gray-400 dark:text-gray-600">
           <p className="mb-4">
-            I'm a tech enthusiast with a passion for coding and exploring new
+            I am a tech enthusiast with a passion for coding and exploring new
             technologies. I enjoy building innovative solutions and constantly
             learning more about the tech world.
           </p>
