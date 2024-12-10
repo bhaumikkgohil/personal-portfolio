@@ -44,12 +44,14 @@ export default function Home() {
         </div>
         <div className="text-lg max-w-xl text-gray-400 dark:text-gray-600">
           <p className="mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-            odio. Praesent libero. Sed cursus ante dapibus diam.
+            I'm a tech enthusiast with a passion for coding and exploring new
+            technologies. I enjoy building innovative solutions and constantly
+            learning more about the tech world.
           </p>
           <p>
-            Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis
-            ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
+            Outside of coding, I have a hobby of watching airplanes, and my
+            dream is to become an airline pilot, combining my love for aviation
+            with my technical skills.
           </p>
         </div>
       </div>

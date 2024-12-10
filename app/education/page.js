@@ -46,7 +46,7 @@ export default function Education() {
       <div className="pt-24 w-full flex flex-col items-center p-8 relative">
         {/* Header Section */}
         <header className="text-center mb-12">
-          <h1 className="text-3xl font-bold">Education</h1>
+          <h1 className="text-5xl font-bold">Education</h1>
           <p className="mt-4 text-lg text-gray-400 dark:text-gray-600 max-w-2xl mx-auto">
             A summary of my academic journey and certifications.
           </p>
@@ -57,16 +57,18 @@ export default function Education() {
           {educationData.map((item, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 mx-[15%] flex flex-col space-y-4 relative z-10 transition-all duration-300 transform  hover:scale-110 hover:shadow-2xl hover:z-30"
+              className="bg-gray-800 dark:bg-white dark:shadow-none shadow-md rounded-lg p-6 mx-[15%] flex flex-col space-y-4 relative z-10 transition-all duration-300 transform  hover:scale-110 hover:shadow-2xl hover:z-30"
             >
-              <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+              <h2 className="text-xl font-semibold text-teal-300 dark:text-gray-900">
                 {item.title}
               </h2>
-              <h3 className="text-teal-500">{item.institution}</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              <h3 className="text-white dark:text-teal-500">
+                {item.institution}
+              </h3>
+              <p className="text-sm text-teal-700 dark:text-gray-600">
                 {item.duration}
               </p>
-              <p className="text-gray-700 dark:text-gray-300">
+              <p className="text-gray-400 dark:text-gray-600">
                 {item.description}
               </p>
             </div>

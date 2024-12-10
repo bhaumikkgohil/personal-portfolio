@@ -22,25 +22,22 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className="w-full p-4 bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 flex justify-between items-center fixed top-0 z-50">
-      <div className="text-xl font-semibold hover:text-teal-400 transition duration-200">
+    <nav className="w-full p-4 bg-gray-900 dark:bg-gray-100 text-teal-300 dark:text-gray-900 flex justify-between items-center fixed top-0 z-50">
+      <div className="text-xl font-semibold hover:text-white transition duration-200">
         <Link href="/">Portfolio</Link>
       </div>
       <div className="hidden sm:flex space-x-6">
-        <Link href="/education" className="hover:text-teal-400 transition">
+        <Link href="/education" className="hover:text-white transition">
           Education
         </Link>
-        <Link href="/projects" className="hover:text-teal-400 transition">
+        <Link href="/projects" className="hover:text-white transition">
           Projects
         </Link>
-        <Link href="/skills" className="hover:text-teal-400 transition">
+        <Link href="/skills" className="hover:text-white transition">
           Skills
         </Link>
-        <Link href="/contact" className="hover:text-teal-400 transition">
+        <Link href="/contact" className="hover:text-white transition">
           Contact Me
-        </Link>
-        <Link href="/resume" className="hover:text-teal-400 transition">
-          Resume
         </Link>
       </div>
       <div className="flex items-center space-x-4">
