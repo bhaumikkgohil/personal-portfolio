@@ -11,8 +11,8 @@ export default function SkillsPage() {
       <div className="w-full max-w-4xl mt-24">
         <Skill
           category="Languages"
-          skills={["Python", "Java"]} // Array of skills
-          colors={["emerald-400", "rose-400"]} // Array of colors
+          skills={["Python", "Java", "C#"]} // Array of skills
+          colors={["emerald-400", "rose-400", "rose-200"]} // Array of colors
         />
         <Skill
           category="Frontend"
@@ -37,7 +37,7 @@ export default function SkillsPage() {
         />
         <Skill
           category="Databases"
-          skills={["Oracle SQL"]} // Single skill as an array
+          skills={["Oracle SQL, NOSQL, Firestore Database"]} // Single skill as an array
           colors={["red-400"]} // Single color
         />
       </div>

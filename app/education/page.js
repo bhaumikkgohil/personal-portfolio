@@ -57,18 +57,18 @@ export default function Education() {
           {educationData.map((item, index) => (
             <div
               key={index}
-              className="bg-gray-800 dark:bg-white dark:shadow-none shadow-md rounded-lg p-6 mx-[15%] flex flex-col space-y-4 relative z-10 transition-all duration-300 transform  hover:scale-110 hover:shadow-2xl hover:z-30"
+              className="bg-teal-500 dark:bg-white dark:shadow-none shadow-md rounded-lg p-6 mx-[15%] flex flex-col space-y-4 relative z-10 transition-all duration-300 transform  hover:scale-110 hover:shadow-2xl hover:z-30"
             >
-              <h2 className="text-xl font-semibold text-teal-300 dark:text-gray-900">
+              <h2 className="text-xl font-semibold text-black dark:text-gray-900">
                 {item.title}
               </h2>
               <h3 className="text-white dark:text-teal-500">
                 {item.institution}
               </h3>
-              <p className="text-sm text-teal-700 dark:text-gray-600">
+              <p className="text-sm text-teal-900 dark:text-gray-600">
                 {item.duration}
               </p>
-              <p className="text-gray-400 dark:text-gray-600">
+              <p className="text-black dark:text-gray-600">
                 {item.description}
               </p>
             </div>

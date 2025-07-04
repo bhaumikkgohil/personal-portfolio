@@ -18,16 +18,9 @@ export default function ProjectsPage() {
           link="https://bhaumik-gohil-portfolio.vercel.app/"
         />
         <Project
-          title="No Project"
-          description="Will Update Soon. Till then have a look at my skills and my education."
-        />
-        <Project
-          title="No Project"
-          description="Will Update Soon. Till then have a look at my skills and my education."
-        />
-        <Project
-          title="No Project"
-          description="Will Update Soon. Till then have a look at my skills and my education."
+          title="Teeku Masi's Cloud Kitchen"
+          description="A cloud kitchen website built with Next.js and Tailwind CSS."
+          link="https://teeku-masi-cloud-kitchen-one.vercel.app/"
         />
       </div>
     </div>
